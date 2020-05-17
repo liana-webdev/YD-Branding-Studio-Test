@@ -301,6 +301,9 @@ button {
 .yt {
   display: none;
 }
+.mobile-h3 {
+  display: none;
+}
 
 @media only screen and (max-width: 1700px) {
   .main-title {
@@ -360,7 +363,7 @@ button {
     padding-right: 0px;
   }
   .main-title {
-    padding-top: 0;
+    padding-top: 3em;
   }
   .main-title h1 {
     font-size: 26px;
@@ -369,7 +372,7 @@ button {
     font-size: 15px;
   }
 
-  .main-title h3 {
+  .main-title .title2 {
     display: none;
   }
 
@@ -389,6 +392,10 @@ button {
   .yt {
     display: block;
   }
+  .mobile-h3 {
+    font-size: 16px;
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -396,7 +403,7 @@ button {
   }
   .top-panel {
     margin-top: 43px;
-    padding-left: 15px;
+    padding-left: 20px;
   }
 
   .right-cont {
@@ -405,4 +412,18 @@ button {
   .branding-text {
     display: none;
   }
+}
+
+#myVideo {
+  z-index: -1;
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(25%);
 }
