@@ -669,7 +669,7 @@ button {
   }
   .enq1,
   .enq2 {
-    width: 50%;
+    width: 60%;
   }
   .enq-fields-inner {
     position: absolute;
@@ -701,10 +701,7 @@ button {
     right: 0%;
     z-index: 99;
   }
-  .enq1,
-  .enq2 {
-    width: 50%;
-  }
+
   .enq-fields-inner {
     position: absolute;
     width: 60vh;
@@ -775,10 +772,7 @@ button {
     right: 0%;
     z-index: 99;
   }
-  .enq1,
-  .enq2 {
-    width: 50%;
-  }
+
   .enq-fields-inner {
     position: absolute;
     width: 60vh;
