@@ -93,6 +93,7 @@ h3 {
 
 .left-cont {
   box-sizing: border-box;
+  z-index: 1;
   /* border: solid 3px red; */
   background: linear-gradient(130deg, #f7f3f9, #dfdce0, #aba7ac);
   background-size: 300% 300%;
@@ -554,7 +555,7 @@ button {
   }
   .enq-fields-inner {
     margin-left: 2vh;
-    width: 80vh;
+    width: 60vh;
   }
 }
 
@@ -802,17 +803,16 @@ button {
   }
 }
 
-#myVideo {
-  z-index: -1;
-  position: fixed;
+#video {
+  z-index: 0;
+  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  transform: translateX(25%);
+  /* transform: translateX(25%); */
 }
 
