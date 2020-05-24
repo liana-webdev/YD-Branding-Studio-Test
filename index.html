@@ -137,126 +137,34 @@
         <video style="" class="text-center" autoplay muted loop id="myVideo">
           <source src="YGshowreel.mp4" type="video/mp4" />
         </video>
-        <div class="enq">
-          <div
-            class="enq-fields"
-            style="
-              position: absolute;
-              width: 70vh;
-              padding-top: 26vh;
-              margin-left: 7vh;
-            "
-          >
-            <ul>
-              <li
-                class="h2"
-                style="
-                  font-weight: 400 !important;
-                  color: white;
-                  transition: background-color ease-in 0.18s;
-                  animation: showLeftText cubic-bezier(0.66, 0.07, 0.13, 1.05)
-                    1.3s;
-                  -webkit-animation: showLeftText
-                    cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.3s;
-                  -o-animation: showLeftText
-                    cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.3s;
-                  -moz-animation: showLeftText
-                    cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.3s;
-                "
-              >
-                Оставьте заявку и мы с Вами свяжемся
-              </li>
-              <li>
-                <input
-                  class="input input-primary"
-                  type="text"
-                  placeholder="Ваше имя:"
-                  style="
-                    width: 100%;
-                    margin-bottom: 1em;
-                    margin-top: 1em;
-                    height: 50px;
-                    padding: 1.3em 2.3em 1.3em 2.3em !important;
-                    border-radius: 7px !important;
-                    font-size: 11px !important;
-                    background-color: transparent;
-                    color: #ffffff;
-                    border: 1px solid #c4c4c4;
-                    transition: background-color ease-in 0.18s;
-                    animation: showLeftText cubic-bezier(0.66, 0.07, 0.13, 1.05)
-                      1.5s;
-                    -webkit-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.5s;
-                    -o-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.5s;
-                    -moz-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.5s;
-                  "
-                />
-              </li>
-              <li>
-                <input
-                  type="tel"
-                  placeholder="Ваш телефон:"
-                  style="
-                    width: 100%;
-                    margin-bottom: 1em;
-                    margin-top: 1em;
-                    height: 50px;
-                    padding: 1.3em 2.3em 1.3em 2.3em !important;
-                    border-radius: 7px !important;
-                    font-size: 11px !important;
-                    background-color: transparent;
-                    color: #ffffff;
-                    border: 1px solid #c4c4c4;
-                    transition: background-color ease-in 0.18s;
-                    animation: showLeftText cubic-bezier(0.66, 0.07, 0.13, 1.05)
-                      1.7s;
-                    -webkit-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.7s;
-                    -o-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.7s;
-                    -moz-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.7s;
-                  "
-                />
-              </li>
-              <li>
-                <button
-                  class="input input-primary"
-                  type="text"
-                  placeholder="Ваше имя:"
-                  style="
-                    width: auto;
-                    margin-bottom: 1em;
-                    margin-top: 1em;
-                    height: 50px;
-                    padding: 1.3em 2.3em 1.3em 2.3em !important;
-                    border-radius: 7px !important;
-                    font-size: 11px !important;
-                    background-color: #ffffff;
-                    color: #4d4ad6;
-                    border: none;
-                    transition: background-color ease-in 0.18s;
-                    animation: showLeftText cubic-bezier(0.66, 0.07, 0.13, 1.05)
-                      1.9s;
-                    -webkit-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.9s;
-                    -o-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.9s;
-                    -moz-animation: showLeftText
-                      cubic-bezier(0.66, 0.07, 0.13, 1.05) 1.9s;
-                  "
-                >
-                  Отправить
-                </button>
-              </li>
-            </ul>
+        
+    </div>
+      <div class="enq">
+      <div class="enq-fields">
+        <div class="enq-fields-inner">
+          <div class="close-btn text-right">
+            X
           </div>
-          <div class="enq1"></div>
-          <div class="enq2"></div>
+          <ul>
+            <li class="leave-enq mb-4">
+              Оставьте заявку и мы с <br />Вами свяжемся
+            </li>
+            <li>
+              <input class="name-input" type="text" placeholder="Ваше имя:" />
+            </li>
+            <li>
+              <input class="tel-input" type="tel" placeholder="Ваш телефон:" />
+            </li>
+            <li>
+              <button class="send-btn">
+                Отправить
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
+      <div class="enq1"></div>
+      <div class="enq2"></div>
     </div>
     <script src="script.js"></script>
   </body>
