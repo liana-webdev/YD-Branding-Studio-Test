@@ -645,7 +645,7 @@ button {
 @media only screen and (max-width: 768px) {
   .top-panel {
     margin-top: 43px;
-    padding-left: 0;
+    padding-left: 20px;
   }
 
   .right-cont {
